@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage BackgroundColor="Black" 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:HelloWorld.MarkUpExtensions"
+    x:Class="HelloWorld.ImagePage">
+    <Image x:Name="image" Aspect="AspectFill" Source="{local:EmbeddedImage HelloWorld.images.15978112_955556287914686_4972352297386170264_n.jpg}" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+</ContentPage>
